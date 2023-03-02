@@ -116,6 +116,8 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** New transactions replace initial transactions, losing initial transactions
 
+**Solution:** In the hooks/usePaginatedTransactions/ just append the previousResponse.data with the response.data (using spread operatior) and return it as an array to the data. This will solve the issue with this bug.
+
 # Bug 5: Employees filter not available during loading more data
 
 _This bug has 2 wrong behaviors that will be fixed with the same solution_
