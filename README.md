@@ -148,6 +148,10 @@ _This bug has 2 wrong behaviors that will be fixed with the same solution_
 
 **Actual:** The employees filter shows "Loading employees..." after clicking **View more** until new transactions are loaded.
 
+
+**Solution:** This bug can be solved by tweaking the useEffect in app.tsx and loadAllTransactions function. Just by putting a flag condition for the paginatedTransaction data we can solve both the part of the bug described in this problem.
+
+
 # Bug 6: View more button not working as expected
 
 _This bug has 2 wrong behaviors that can be fixed with the same solution. It's acceptable to fix with separate solutions as well._
@@ -196,6 +200,8 @@ _You need to fix some of the previous bugs in order to reproduce_
 **Expected:** In steps 6 and 8, toggled transaction kept the same value it was given in step 2 _(E.g. Social Media Ads Inc is unchecked)_
 
 **Actual:** In steps 6 and 8, toggled transaction lost the value given in step 2. _(E.g. Social Media Ads Inc is checked again)_
+
+
 
 ## Submission
 
