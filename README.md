@@ -168,6 +168,8 @@ _This bug has 2 wrong behaviors that can be fixed with the same solution. It's a
 
 **Actual:** The **View more** button is visible even when transactions are filtered by employee. _You can even click **View more** button and get an unexpected result_
 
+**Solution:** Just by changing the position value from fixed to absolute, this bug can be taken care of.
+
 ##### Part 2
 
 **How to reproduce:**
