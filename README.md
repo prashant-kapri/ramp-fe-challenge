@@ -201,6 +201,7 @@ _You need to fix some of the previous bugs in order to reproduce_
 
 **Actual:** In steps 6 and 8, toggled transaction lost the value given in step 2. _(E.g. Social Media Ads Inc is checked again)_
 
+**Solution:** This bug can be taken care of by some changes in the components/Transactions/index.tsx file.  Just by using the clearCacheByEndpoint function from custom fetch we can solve the issue of lost value in the transaction pane.
 
 
 ## Submission
