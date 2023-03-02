@@ -90,6 +90,8 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** Nothing happens
 
+**Solution:** In the components/inputCheckbox/index.tsx just close the label tag after the input tag it will make sure that the input with type perform the intended checkbox functionality.
+
 # Bug 3: Cannot select _All Employees_ after selecting an employee
 
 **How to reproduce:**
