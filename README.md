@@ -105,6 +105,8 @@ We don't have a real API for this challenge, so we added some utilities to simul
 
 **Actual:** The page crashes
 
+**Solution:** This bug can be solved by adding a null statement check at the input select component. If the emp id is not null then load the transaction using id as the prop else just load all transactions.
+
 # Bug 4: Clicking on View More button not showing correct data
 
 **How to reproduce:**
