@@ -70,7 +70,7 @@ export function App() {
             if (newValue === null) {
               return
             }
-            if (newValue?.id != "") {
+            if (newValue?.id !== "") {
               await loadTransactionsByEmployee(newValue?.id)
             } else await loadAllTransactions()
           }}
